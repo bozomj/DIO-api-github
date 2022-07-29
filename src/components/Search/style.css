@@ -1,0 +1,23 @@
+.search {
+  display: flex;
+  justify-content: space-between;
+  height: 3em;
+  
+}
+
+#searchProfile {
+  flex: 1;
+  border-radius: 10px 0 0px 10px;
+  padding: 0 10px;
+  border: steelblue solid 3px;
+  outline: none;
+}
+
+.search button {
+  background: steelblue;
+  font-weight: bold;
+  min-width: 80px;
+  border-radius: 0 10px 10px 0;
+  border: steelblue solid 3px;
+  color: aliceblue;
+}

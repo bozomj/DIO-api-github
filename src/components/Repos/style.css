@@ -1,0 +1,7 @@
+#repos{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 12px;
+  justify-content: center;
+  margin-top: 24px;
+}

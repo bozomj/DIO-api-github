@@ -1,0 +1,32 @@
+#profile {
+  display: flex;
+  margin: 12px;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+#profile img {
+  border: solid 1px steelblue;
+  border-radius: 50%;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+#profile ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#profile ul li span {
+  font-weight: bold;
+}
+
+#profile a {
+  color: steelblue;
+  text-decoration: none;
+  font-weight: bold;
+}

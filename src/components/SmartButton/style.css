@@ -1,0 +1,24 @@
+
+
+
+
+.smart-button input{
+  
+  display: none;
+}
+
+.smart-button input ~ label{
+  display: block;
+  padding: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: solid 2px #aaa;
+  color: #999;
+  font-weight: bold;
+  user-select: none;
+}
+
+.smart-button input:checked ~ label{
+  border: steelblue solid 2px;
+  color: steelblue;
+}

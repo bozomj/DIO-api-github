@@ -1,0 +1,10 @@
+.statusCount {
+  display: flex;
+  flex-direction: row !important;
+}
+
+.statusCount li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
