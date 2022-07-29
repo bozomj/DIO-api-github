@@ -56,7 +56,7 @@ function Profile(props: IProfile) {
 
   return (
     <div id="profile">
-      <a target="_BLANK" href={profileData.html_url}>
+      <a target="_BLANK" href={profileData?.html_url}>
         <img src={profileData?.avatar_url} alt="" />
       </a>
       <ul>
